@@ -61,7 +61,7 @@
            </table>
             <?php if(isset($_SESSION["count"]) && $_SESSION["count"] > 0):?>
                 <form method="post" action="<?php echo BASE_URL;?>emptycart">
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" class="btn ajouter">
                         Vider le panier
                     </button>
                 </form>

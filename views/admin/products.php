@@ -10,7 +10,7 @@
   <div class="row my-5">
     <div class="col-md-10 mx-auto">
         <div class="form-group">
-            <a href="<?php echo BASE_URL?>addProduct" class="btn btn-primary btn-sm">
+            <a href="<?php echo BASE_URL?>addProduct" class="btn shadow ajouter btn-sm">
                 Ajouter
             </a>
         </div>
@@ -20,7 +20,7 @@
         <form id="delete_form" action="<?php echo BASE_URL?>deleteProduct" method="post">
             <input type="hidden" name="delete_product_id" id="delete_product_id">
         </form>
-        <div class="card bg-light p-3">
+        <div class="card shadow rounded p-3">
             <table class="table table-hover table-inverse">
                 <h3 class="font-weight-bold">Produits</h3>
                 <thead>
@@ -30,7 +30,7 @@
                         <th>Quantité</th>
                         <th>Description</th>
                         <th>Image</th>
-                        <th>Action</th>
+                        <th class="text-center">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -46,10 +46,10 @@
                             alt="" class="img-fluid">
                         </td>
                         <td class="d-flex flex-row justify-content-center align-items-center">
-                            <a onclick="submitForm(<?php echo $product['product_id'];?>)" class="btn btn-warning btn-sm mr-1">
+                            <a onclick="submitForm(<?php echo $product['product_id'];?>)" class="btn md btn-sm mr-1">
                                 Modifier
                             </a>
-                            <a onclick="deleteForm(<?php echo $product['product_id'];?>)" class="btn btn-danger btn-sm">
+                            <a onclick="deleteForm(<?php echo $product['product_id'];?>)" class="btn sup btn-sm">
                                 Supprimer
                             </a>
                         </td>
@@ -61,3 +61,7 @@
     </div>
   </div>
 </div>
+<footer class="navbar navbar-dark p-0">
+        <span class="text-white mr-0 p-2">© 2021 AZDOUD All rights reserved.</span>
+        <span class="text-white mr-0 p-2">Design and Developed by AZDOUD</span>
+      </footer>

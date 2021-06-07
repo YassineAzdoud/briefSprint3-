@@ -55,9 +55,13 @@
                     <input type="hidden" name="product_id" value="<?php echo $product->product_id;?>">
                 </div>
                 <div class="form-group">
-                    <input type="submit" class="btn btn-primary" value="Ajouter au panier">
+                    <input type="submit" class="btn ajouter" value="Ajouter au panier">
                 </div>
             </form>
         </div>
     </div>
 </div>
+<footer class="navbar navbar-dark p-0">
+        <span class="text-white mr-0 p-2">© 2021 AZDOUD All rights reserved.</span>
+        <span class="text-white mr-0 p-2">Design and Developed by AZDOUD</span>
+      </footer>

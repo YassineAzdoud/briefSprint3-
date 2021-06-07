@@ -54,7 +54,7 @@
                                     ?>dh
                                 </strike>
                             </span>
-                            <button type="button" class="btn btn-success">Success</button>
+                             
                         </div>
                     </div> 
                 </div>
@@ -102,3 +102,7 @@
         </div>
     </div>
 </div>
+<footer class="navbar navbar-dark p-0">
+        <span class="text-white mr-0 p-2">© 2021 AZDOUD All rights reserved.</span>
+        <span class="text-white mr-0 p-2">Design and Developed by AZDOUD</span>
+      </footer>

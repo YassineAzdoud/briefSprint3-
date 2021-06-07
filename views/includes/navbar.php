@@ -1,11 +1,11 @@
 <body>
-<nav class="navbar navbar-dark sticky-top navbar-expand-sm flex-md-nowrap bg-dark p-0 shadow">
+<nav id="navbar" class="navbar navbar-dark sticky-top navbar-expand-sm flex-md-nowrap p-0 shadow">
   <a class="navbar-brand col-lg-9 mr-0" href="#">Company name</a>
 <ul class="navbar-nav pl-1">
       <li class="nav-item active text-nowrap">
         <a class="nav-link" href="<?php echo BASE_URL;?>">Accueil <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item text-nowrap">
+      <li class="nav-item text-nowrap text-white">
         <a class="nav-link" href="<?php echo BASE_URL;?>cart">
           Panier
           <?php if(isset($_SESSION["count"]) && $_SESSION["count"] > 0):?>
@@ -24,7 +24,7 @@
        
           
           <?php if(isset($_SESSION["admin"]) && $_SESSION["admin"] == true):?>
-           <a class="dropdown-item" href="<?php echo BASE_URL;?>dashboard">Dashboard <span class="sr-only">(current)</span></a>
+           <a class="dropdown-item" href="<?php echo BASE_URL;?>categories">Dashboard <span class="sr-only">(current)</span></a>
           <?php endif;?> 
           <a class="dropdown-item" href="<?php echo BASE_URL;?>logout">Déconnexion</a>
           </div>

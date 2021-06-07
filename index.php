@@ -1,7 +1,7 @@
 <?php 
 require_once './autoload.php';
-require_once './views/includes/head.php"';
-require_once './views/includes/navbar.php"';
+require_once './views/includes/head.php';
+require_once './views/includes/navbar.php';
 
 $home = new HomeController();
 
@@ -19,18 +19,15 @@ if(isset($_GET['page'])){
             $page === "orders" || $page === "categories" || $page === "addCategory" || $page === "updateCategory"
             || $page === "deleteCategory"){
                 include('views/includes/sidebar.php');
-                    include("views/includes/main.php");
                 if(isset($_SESSION['admin']) && $_SESSION['admin'] == true){
                     $admin = new AdminController();
                     $admin->index($page);
-                    
-                  
-                    
-                }else{
-                    include('views/includes/404.php');
                 }
         }else{
             $home->index($page);
+        }
+        if(empty($page === "dashboard" || $page === "deleteProduct")){
+            
         }
     }else{
         include('views/includes/404.php');

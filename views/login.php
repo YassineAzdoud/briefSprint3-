@@ -5,7 +5,7 @@
     $loginUser = new UsersController();
     $loginUser->auth();
 ?>
-<div class="container">
+<div class="container h82">
     <div class="row my-4">
         <div class="col-md-6 mx-auto">
             <div class="card">
@@ -25,7 +25,7 @@
                             placeholder="Mot de passe" id="">
                         </div>
                         <div class="form-group">
-                            <button name="submit" class="btn btn-primary">
+                            <button name="submit" class="btn ajouter">
                                 Connexion
                             </button>
                         </div>

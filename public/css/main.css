@@ -1,3 +1,34 @@
-
+body {
+  background-color: #f2f4f8 !important; }
+  body #navbar {
+    background: linear-gradient(45deg, #8e24aa, #ff6e40) !important; }
+  body #sidebarMenu {
+    box-shadow: 0 0px 7px 0 #00000033; }
+  body .ajouter {
+    background-color: #8e24aa;
+    border: none;
+    color: #fff; }
+  body .ajouter:hover {
+    background-color: #8e24aa;
+    border: none;
+    color: #fff; }
+  body .md {
+    background-color: #ff4081;
+    border: none;
+    color: #fff; }
+  body .md:hover {
+    background-color: #ff4081;
+    border: none;
+    color: #fff; }
+  body .sup {
+    background-color: #ff6e40;
+    border: none;
+    color: #fff; }
+  body .sup:hover {
+    background-color: #ff6e40;
+    border: none;
+    color: #fff; }
+  body footer {
+    background: linear-gradient(45deg, #8e24aa, #ff6e40) !important; }
 
 /*# sourceMappingURL=main.css.map */

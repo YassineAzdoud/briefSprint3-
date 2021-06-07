@@ -9,7 +9,7 @@
 <div class="container">
   <div class="row my-5">
     <div class="col-md-10 mx-auto">
-        <div class="card bg-light p-3">
+        <div class="card shadow rounded p-3">
             <table class="table table-hover table-inverse">
                 <h3 class="font-weight-bold">Commandes</h3>
                 <thead>
@@ -39,3 +39,7 @@
     </div>
   </div>
 </div>
+<footer class="navbar navbar-dark p-0">
+        <span class="text-white mr-0 p-2">© 2021 AZDOUD All rights reserved.</span>
+        <span class="text-white mr-0 p-2">Design and Developed by AZDOUD</span>
+      </footer>

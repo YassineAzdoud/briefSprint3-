@@ -36,7 +36,7 @@
                             placeholder="Mot de passe" id="">
                         </div>
                         <div class="form-group">
-                            <button name="submit" class="btn btn-primary">
+                            <button name="submit" class="btn ajouter">
                                 Inscription
                             </button>
                         </div>
